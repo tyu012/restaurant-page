@@ -3,14 +3,17 @@ const loadMenu = function(elementID) {
 
   contents.innerHTML = "";
 
+  let title = document.createElement("h1");
+  title.textContent = "Menu";
+
   let menuList = document.createElement("ul");
-  
   addItemToList("Pepperoni Pizza", menuList);
   addItemToList("Cheese Pizza", menuList);
   addItemToList("Small Steak", menuList);
   addItemToList("Large Steak", menuList);
   addItemToList("Soup of the Day", menuList);
   addItemToList("Vegetable Salad", menuList);
+  contents.appendChild(menuList);
 }
 
 function addItemToList(innerHTML, list) {

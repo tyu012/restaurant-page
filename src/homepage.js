@@ -1,10 +1,10 @@
 const loadHomepage = function(elementID) {
-  let contents = document.querySelector(elementID)
+  let contents = document.querySelector(elementID);
 
-  contents.innerHTML = ""
+  contents.innerHTML = "";
 
   let title = document.createElement("h1");
-  title.textContent = "Restaurant";
+  title.textContent = "Good Restaurant";
   contents.appendChild(title);
 
   let image = document.createElement("img");
