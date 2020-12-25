@@ -5,8 +5,10 @@ const loadMenu = function(elementID) {
 
   let title = document.createElement("h1");
   title.textContent = "Menu";
+  contents.appendChild(title);
 
   let menuList = document.createElement("ul");
+  menuList.classList.add("menu");
   addItemToList("Pepperoni Pizza", menuList);
   addItemToList("Cheese Pizza", menuList);
   addItemToList("Small Steak", menuList);
@@ -18,6 +20,7 @@ const loadMenu = function(elementID) {
 
 function addItemToList(innerHTML, list) {
   let item = document.createElement("li");
+  item.classList.add("menu-item");
   item.innerHTML = innerHTML;
   list.appendChild(item);
 }

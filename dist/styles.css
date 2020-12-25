@@ -1,0 +1,53 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 18px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 8px;
+  text-align: center;
+}
+
+.tab {
+  display: inline;
+  font-size: 24px;
+  margin: 0px 16px;
+  color: slategray;
+}
+
+.tab:hover {
+  color: indianred;
+}
+
+nav {
+  text-align: center;
+  margin-top: 12px;
+}
+
+p {
+  font-size: 16px;
+  padding: 8px;
+  text-align: center;
+}
+
+.menu {
+  text-align: center;
+  margin: 4px;
+}
+
+.menu-item {
+  font-size: 16px;
+}

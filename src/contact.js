@@ -5,6 +5,7 @@ const loadContactPage = function(elementID) {
 
   let heading = document.createElement("h1");
   heading.textContent = "Contact Us";
+  contents.appendChild(heading);
 
   let addressHeading = document.createElement("h2");
   addressHeading.textContent = "Address";
